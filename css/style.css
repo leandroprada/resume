@@ -405,7 +405,7 @@ main {
   position: absolute;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .home-button {
     display: none;
   }
