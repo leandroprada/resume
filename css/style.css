@@ -407,7 +407,7 @@ main {
 
 @media (min-width: 576px) {
   .home-button {
-    display: block;
+    display: none;
   }
 }
 
