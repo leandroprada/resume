@@ -309,6 +309,14 @@ main {
 	}
 
 }
+
+@media (max-width: 576px) {
+  .home-button {
+    display: none;
+  }
+}
+
+
 .portfolio-list {
 	padding: 0;
 	margin: 0;
