@@ -403,11 +403,12 @@ main {
   color: #f79737;
   font-size: 20px;
   position: absolute;
+  display: none;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .home-button {
-    display: none;
+    display: block;
   }
 }
 

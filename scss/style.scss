@@ -305,14 +305,14 @@ main {
 	font-size: 20px;
 	position: absolute;
 	@include media-breakpoint-up(sm) {
-		display: block;
+		display: none;
 	}
 
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .home-button {
-    display: none;
+    display: block;
   }
 }
 
